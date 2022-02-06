@@ -18,13 +18,13 @@ class Blog
             1=>[
                 'title'       => 'Another Blog',
                 'description' => 'Blog Description',
-                'author'      => 'Sumon',
+                'author'      => 'Tarikul',
                 'image'       => 'p2.jpg'
             ],
             2=>[
                 'title'       => 'About Bangladesh',
                 'description' => 'Blog Description',
-                'author'      => 'Rakib',
+                'author'      => 'Tarikul',
                 'image'       => 'p3.jpg'
             ],
         ];
