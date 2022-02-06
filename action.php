@@ -2,6 +2,7 @@
 require_once 'vendor/autoload.php';
 use App\classes\Home;
 use App\classes\PasswordGenerator;
+use App\classes\Blog;
 
 
 if (isset($_GET['pages']))
@@ -14,7 +15,15 @@ if (isset($_GET['pages']))
     {
         include 'pages/password-reset.php';
     }
+    elseif ($_GET['pages']== 'blog')
+    {
+        $blog  = new Blog();
+        $blogs = $blog->getAllBlog();
+        include 'pages/blog.php';
+    }
 }
+
+
 elseif (isset($_POST['btn']))
 {
     $passwordGenerator = new PasswordGenerator($_POST);

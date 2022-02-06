@@ -15,7 +15,7 @@
             <a href="" class="navbar-brand">LOGO</a>
             <ul class="navbar-nav">
                 <li><a href="action.php?pages=password-reset" class="nav-link">Password Reset</a></li>
-                <li><a href="" class="nav-link">Search</a></li>
+                <li><a href="action.php?pages=blog" class="nav-link">All Blog</a></li>
                 <li><a href="" class="nav-link">Series</a></li>
             </ul>
         </div>
